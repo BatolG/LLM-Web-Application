@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head: contining links & importing libraries -->
+    <head>
+        <!-- Link to CSS code -->
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Website Title -->
+        <title>DEMO: LLM Model (Q&A)</title>
+    </head>
+    <!-- Body: contining all visual elements -->
+    <body>
+
+        <!-- Title & Description -->
+        <br>
+        <header>
+            <h1>DEMO: LLM Model (Q&A)</h1>
+            <h2>Large Language Model Evaluation Application</h2>
+        </header>
+
+        <!--<h2>Intership Assignment</h2>-->
+        <br>
+        <h4>This assignment is to build a web application that evaluates the responses of different LLM models in the Question and Answering task.</h4>
+
+        <!-- !Form the user to input prompts or question into! -->
+        <div class="main">
+            <center>
+                <form action="/" method="POST">
+                    <input name="prompt" type="text" placeholder="What is your question? ">
+                    <button type="submit">
+                      <i class="next-icon">&rsaquo;</i>
+                    </button>
+                </form>
+            </center>
+        </div>
+        <br>
+        <!-- A loction to add response into! -->
+        <div class="output">
+            <p class="text-center">{{ output }}</p>
+        </div>
+    </body>
+</html>

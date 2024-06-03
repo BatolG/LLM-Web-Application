@@ -1,0 +1,17 @@
+body {
+    /* Define any attribute that I want shared across the page!*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url('background.jpg');
+    line-height: 1.8;
+}
+
+input[type="text"]{
+    width: 50%;
+    padding: 12px;
+    font-size: medium;
+}
+
+.button{
+    border-radius: 50%;
+}
